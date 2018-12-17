@@ -1,0 +1,20 @@
+1-Admin
+	-Add,Delete,Update,Show Members(Managers,pharmacists,Cashiers)
+		//you can Login as Admin To Add New Members
+			username:admin123
+			password:asdasd
+2-Manager
+	-Add,Delete,update,Show New Members(Pharmacist,Cashiers and only can add New Manager);
+	-Add,Delete,Update,Show Stock
+	-Live Search on Stock
+	-Generate Report on in Salled Stock
+3-Pharmacist
+	-Add,Delete,Update,Show Stock
+	-Live Search on Stock
+	-Send Patient Recepctionist To Cashier
+		Receptionest Contain[Patient Number,Stock Name,qty,description]
+4-Cashier
+	-Live Search on Stock
+	-Can Generate Invoce in Stock
+		-Invoce Contain[#Patient,Patient Name,Patient Phone, Stock Name,Stock Type,description,Qty,Cost]; 
+________________________________________________________________________________________________________
